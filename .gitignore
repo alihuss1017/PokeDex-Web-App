@@ -1,0 +1,6 @@
+__pycache__/
+.vscode/
+.env/
+*.sql
+pokedex-frontend/node_modules/
+pokedex-frontend/build
