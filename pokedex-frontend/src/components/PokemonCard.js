@@ -28,7 +28,10 @@ function PokemonCard({ pokemon }) {
         <h2 className="text-xl font-bold mb-2">{pokemon.name}</h2>
         <div className="flex justify-center mb-2">
           <img
-            src={`https://img.pokemondb.net/sprites/black-white/anim/normal/${pokemon.name.toLowerCase()}.gif`}
+            src={pokemon.name === 'Nidoran♀' ? "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-f.gif"
+                : pokemon.name === 'Nidoran♂' ? "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-m.gif"
+                : pokemon.name === 'Mr. Mime' ? "https://img.pokemondb.net/sprites/black-white/anim/normal/mr-mime.gif"
+             : `https://img.pokemondb.net/sprites/black-white/anim/normal/${pokemon.name.toLowerCase()}.gif`}
             alt={pokemon.name}
             className="h-16"
           />
@@ -46,7 +49,7 @@ function PokemonCard({ pokemon }) {
             </span>
           )}
         </div>
-        <p className="text-sm font-medium">BST: {pokemon.bst}</p>
+        <p className="text-sm font-medium">Abilties: {pokemon.abilities}</p>
       </div>
     </Link>
   );
