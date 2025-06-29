@@ -2,6 +2,7 @@
 
 A full-stack Pokédex application that lets users explore Pokémon data with beautiful visuals and responsive design.
 ![alt text](images/app-preview.png)
+![alt text](images/detail-preview.png)
 ## 🧠 Technologies Used
 
 - **Backend**: FastAPI + PostgreSQL
