@@ -13,47 +13,27 @@ A full-stack Pokédex application that lets users explore Pokémon data with bea
 ---
 
 ## 🌟 Features
-
-- 📦 Scraped all Pokémon data using BeautifulSoup
-- 🧮 Structured and stored data in PostgreSQL
 - 🔍 Search Pokémon by name
 - 🧭 Navigate to detail pages with radar charts of stats
 - 💡 Toggle between light and dark mode
-- 🧼 Excludes alternate forms (e.g., Mega, Alolan, Galarian) from main list
-- ⚙️ Environment variable-based secure DB connection
 
 ---
 
-## 🚀 Getting Started
+## 🔮 Future Work
+- **🌐 Deployment**
+  - Containerize the full-stack app using Docker
+  - Deploy on platforms like Render, Railway, or Fly.io
 
-### 1. Clone the Repository, Install Required Packages
+- **🧭 Feature Enhancements**
+  - Filter Pokémon by type, stat range, or generation
+  - Visualize evolution chains with interactive components
+  - Display learnable moves and TM/HM compatibility. 
+  - Include Pokédex entries
 
-```bash
-git clone https://github.com/your-username/pokedex-web-app.git
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
+--- 
+## 📚 Data Sources
 
-### 2. Backend Setup (FastAPI)
-Create a .env file and initialize the following:
-```
-DB_NAME=your_db
-DB_USER=your_user
-DB_PASSWORD=your_password
-DB_HOST=localhost
-DB_PORT=5432
-```
+- Pokémon stats, types, abilities, and sprites are sourced from:
 
-Then in terminal:
-```
-uvicorn main:app --reload
-```
-
-### 3. Set up FastAPI 
-In a separate terminal:
-```
-cd pokedex-frontend
-npm install 
-npm start
-```
+  - [Pokémon Database](https://pokemondb.net) — for sprites and structured stat/type data
+  - [Serebii.net](https://www.serebii.net) — for national Pokédex table and additional information
