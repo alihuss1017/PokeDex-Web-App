@@ -1,6 +1,6 @@
 # Pokédex Web App
 
-A full-stack Pokédex application that lets users explore Pokémon data with beautiful visuals and responsive design.
+A full-stack Pokédex application that lets users explore Pokémon data with stat visuals and responsive design.
 
 ![alt text](assets/home.png)
 ---
