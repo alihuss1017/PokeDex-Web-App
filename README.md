@@ -2,7 +2,7 @@
 
 A full-stack Pokédex application that lets users explore Pokémon data with beautiful visuals and responsive design.
 
-![alt text](assets/image.png)
+![alt text](assets/home.png)
 ---
 ![alt text](assets/detail.png)
 ## 🧠 Technologies Used
